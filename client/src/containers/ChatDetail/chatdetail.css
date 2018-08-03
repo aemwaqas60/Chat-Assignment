@@ -1,0 +1,16 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+.chat-detail-username {
+    font-style: italic;
+}
+.message-preview {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: calc(100% - 70px);
+}

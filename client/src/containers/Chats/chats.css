@@ -1,0 +1,23 @@
+.chat-list {
+    line-height: 30px;
+    background-color: #80a3d5;
+    width: 260px;
+    height: 100vh;
+    float: left;
+    position: relative;
+}
+.chat-detail {
+    max-width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: relative;
+}
+.logout-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.logout-container .glyphicon {
+    font-size: 40px;
+    color: brown;
+}
